@@ -2,7 +2,7 @@
 "
 " riajyu.vim - 
 "
-" Version: 0.1
+" Version: 0.2
 " Maintainer:	yaasita < https://github.com/yaasita/tktoutline >
 " Last Change:	2013/02/08.
 
