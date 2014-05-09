@@ -4,13 +4,13 @@
 "
 " Version: 0.2
 " Maintainer:	yaasita < https://github.com/yaasita/tktoutline >
-" Last Change:	2013/02/08.
+" Last Change:	2014/05/09.
 
 let g:rjcolors_list = split(globpath(&rtp, 'colors/*.vim'), '\n')
 let g:rjcolors_counter=-1
 let g:rjcolors_name=""
-command! RjcolorNext call <SID>Colorscheme_next()
-command! RjcolorBack call <SID>Colorscheme_back()
+command! RjcolorNext call s:Colorscheme_next()
+command! RjcolorBack call s:Colorscheme_back()
 
 "Function: s:Colorscheme_next() {{{1
 function! s:Colorscheme_next()
